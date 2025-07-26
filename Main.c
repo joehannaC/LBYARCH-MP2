@@ -35,9 +35,9 @@ void manual_input_test(int rows) {
 
     compute_acceleration(matrix, results, rows);
 
-    printf("\nResults: Acceleration values (in m/s²):\n");
+    printf("\nResults: Acceleration values (in m/s^2):\n");
     for (int i = 0; i < rows; i++) {
-        printf("Row %d: %d m/s²\n", i + 1, results[i]);
+        printf("Row %d: %d m/s^2\n", i + 1, results[i]);
     }
 
     free(matrix);
