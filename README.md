@@ -13,6 +13,7 @@ Date: July 27, 2025
 This project computes the acceleration of multiple cars over a 1KM distance using initial and final velocities (in KM/H) and time taken (in seconds). The goal is to implement a high-performance solution using C for orchestration and x86-64 Assembly with Scalar SIMD floating-point instructions for computation.
 
 Given:
+
 vi = initial velocity (double, km/h)
 
 vf = final velocity (double, km/h)
