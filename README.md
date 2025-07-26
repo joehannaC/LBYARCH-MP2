@@ -67,25 +67,43 @@ Notes:
 # SAMPLE INPUT AND OUTPUT
 
 INPUT:
+
   Enter number of rows: 3
+  
   Enter Vi, Vf, and T for each row:
+  
   Row 1:
+  
     Vi (km/h): 0.0
+    
     Vf (km/h): 62.5
+    
     T (s): 10.1
+    
   Row 2:
+  
     Vi (km/h): 60.0
+    
     Vf (km/h): 122.3
+    
     T (s): 5.5
+    
   Row 3:
+  
     Vi (km/h): 30.0
+    
     Vf (km/h): 160.7
+    
     T (s): 7.8
 
 OUTPUT:
+
   Results: Acceleration values (in m/s^2):
+  
     Row 1: 2 m/s^2
+    
     Row 2: 3 m/s^2
+    
     Row 3: 5 m/s^2
 
 # CORRECTNESS VERIFICATION
