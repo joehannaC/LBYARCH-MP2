@@ -14,7 +14,9 @@ This project computes the acceleration of multiple cars over a 1KM distance usin
 
 Given:
 vi = initial velocity (double, km/h)
+
 vf = final velocity (double, km/h)
+
 t = time elapsed (double, seconds)
 
 Formula:
