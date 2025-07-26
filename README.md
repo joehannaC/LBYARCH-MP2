@@ -1,6 +1,7 @@
 # LBYARCH-MP2: Car Acceleration Calculator (C + x86-64 ASM with Scalar SIMD)
 
 Section: S11A
+
 Group #10
 - Cansino, Joehanna
 - Caya, Mary Faye
