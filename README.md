@@ -40,23 +40,23 @@ For Windows:
 1. Open CMD and navigate to your project folder (your/path/here).
 2. Run these commands.
    
-  nasm -f win64 compute_acceleration.asm -o compute_acceleration.obj
+     nasm -f win64 compute_acceleration.asm -o compute_acceleration.obj
   
-  gcc -std=c99 -c Main.c -o Main.obj -m64
+     gcc -std=c99 -c Main.c -o Main.obj -m64
   
-  gcc Main.obj compute_acceleration.obj -o main.exe -m64 -mconsole
+     gcc Main.obj compute_acceleration.obj -o main.exe -m64 -mconsole
   
-  main.exe
+     main.exe
 
 For macOS:
 1. Open Terminal and navigate to your project folder (your/path/here).
 2. Run these commands:
    
-  nasm -f macho64 accel.asm -o accel.o
+     nasm -f macho64 accel.asm -o accel.o
   
-  gcc -O2 -arch x86_64 main.c accel.o -o main
+     gcc -O2 -arch x86_64 main.c accel.o -o main
   
-  ./main
+     ./main
 
 Notes:
 - Replace "your/path/here" with the full path to your project directory.
