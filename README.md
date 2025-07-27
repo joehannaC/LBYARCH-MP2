@@ -52,9 +52,9 @@ For macOS:
 1. Open Terminal and navigate to your project folder (your/path/here).
 2. Run these commands:
    
-     nasm -f macho64 accel.asm -o accel.o
+     nasm -f macho64 compute_acceleration.asm -o compute_acceleration.o
   
-     gcc -O2 -arch x86_64 main.c accel.o -o main
+     gcc -O2 -arch x86_64 main.c compute_acceleration.o -o main
   
      ./main
 
