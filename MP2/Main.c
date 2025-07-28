@@ -3,7 +3,7 @@
 #include <time.h>
 
 // Assembly function declaration
-// change the compute_acceleration to compute_acceleration_macos if you're using macos
+// change the compute_acceleration to compute_acceleration_mac if you're using macos
 extern void compute_acceleration(double *matrix, int *results, int rows);
 
 // Generate random values
